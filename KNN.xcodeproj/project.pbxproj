@@ -14,6 +14,8 @@
 		8AB49E691E0A37AA00470B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB49E671E0A37AA00470B25 /* LaunchScreen.storyboard */; };
 		8AB49E741E0A37AA00470B25 /* KNNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB49E731E0A37AA00470B25 /* KNNTests.swift */; };
 		8AB49E7F1E0A37AB00470B25 /* KNNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB49E7E1E0A37AB00470B25 /* KNNUITests.swift */; };
+		8AB49E8E1E0A383600470B25 /* iris.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AB49E8D1E0A383600470B25 /* iris.txt */; };
+		8AB49E901E0B0C6700470B25 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB49E8F1E0B0C6700470B25 /* Flower.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8AB49E7A1E0A37AB00470B25 /* KNNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB49E7E1E0A37AB00470B25 /* KNNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNNUITests.swift; sourceTree = "<group>"; };
 		8AB49E801E0A37AB00470B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB49E8D1E0A383600470B25 /* iris.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iris.txt; sourceTree = "<group>"; };
+		8AB49E8F1E0B0C6700470B25 /* Flower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		8AB49E5D1E0A37AA00470B25 /* KNN */ = {
 			isa = PBXGroup;
 			children = (
+				8AB49E8C1E0A381900470B25 /* Archivestxt */,
 				8AB49E5E1E0A37AA00470B25 /* AppDelegate.swift */,
 				8AB49E601E0A37AA00470B25 /* ViewController.swift */,
+				8AB49E8F1E0B0C6700470B25 /* Flower.swift */,
 				8AB49E621E0A37AA00470B25 /* Main.storyboard */,
 				8AB49E651E0A37AA00470B25 /* Assets.xcassets */,
 				8AB49E671E0A37AA00470B25 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				8AB49E801E0A37AB00470B25 /* Info.plist */,
 			);
 			path = KNNUITests;
+			sourceTree = "<group>";
+		};
+		8AB49E8C1E0A381900470B25 /* Archivestxt */ = {
+			isa = PBXGroup;
+			children = (
+				8AB49E8D1E0A383600470B25 /* iris.txt */,
+			);
+			name = Archivestxt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 			files = (
 				8AB49E691E0A37AA00470B25 /* LaunchScreen.storyboard in Resources */,
 				8AB49E661E0A37AA00470B25 /* Assets.xcassets in Resources */,
+				8AB49E8E1E0A383600470B25 /* iris.txt in Resources */,
 				8AB49E641E0A37AA00470B25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +279,7 @@
 			files = (
 				8AB49E611E0A37AA00470B25 /* ViewController.swift in Sources */,
 				8AB49E5F1E0A37AA00470B25 /* AppDelegate.swift in Sources */,
+				8AB49E901E0B0C6700470B25 /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
